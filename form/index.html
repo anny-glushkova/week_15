@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body>
+    <form class="main-form">
+        <div class="container">
+            <h1>Форма регистрации</h1>
+            <p>Пожалуйста, заполните эту форму, чтобы создать учетную запись.</p>
+            <hr>
+            <label for="name" class="bold-text">Имя</label>
+            <input type="text" id ="name" placeholder="Введите ваше имя">
+            <label for="surname" class="bold-text">Фамилия</label>
+            <input type="text" id ="surname" placeholder="Введите вашу фамилию">
+            <label for="email" class="bold-text">Email</label>
+            <input type="text" id ="email" placeholder="Введите вашу почту">
+            <label for="psw" class="bold-text">Пароль</label>
+            <input type="password" id="password" placeholder="Введите пароль">
+            <label for="psw-repeat" class="bold-text">Повторить пароль</label>
+            <input type="password" id="password-repeat" placeholder="Повторите пароль">
+            <label>
+            <input type="checkbox" checked="checked" id="remember"> Запомнить меня
+            </label>
+            <p>Создавая учетную запись, вы соглашаетесь с <a class="link" href="#">Условия и конфиденциальность</a>.</p>
+            <div id="errorMessage"></div>
+            <button type="button" class="button" onclick="check()">Регистрация</button>
+
+        </div>
+
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>

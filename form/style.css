@@ -1,0 +1,66 @@
+* {box-sizing: border-box}
+
+  #email,
+  #password,
+  #password-repeat,
+  #name,
+  #surname {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: flex;
+  border: none;
+  background: #f1f1f1;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.clearfix {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+  background-color: #4CAF50;
+  border-radius: 20px;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  width: 100%;
+  opacity: 0.9;
+  align-items: center;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+
+.container {
+  padding: 15px;
+}
+
+.bold-text {
+  font-weight: 700;
+}
+
+#remember {
+  margin-bottom: 15px;
+}
+
+.link {
+  color:dodgerblue;
+}
+.main-form {
+  border:1px solid #ccc;
+}
+#errorMessage {
+  color:red;
+  font-weight: 700;
+  background-color: black;
+
+}
